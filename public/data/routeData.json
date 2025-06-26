@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ali",
+      "routes": [
+        {
+          "time": "08:00",
+          "lat": 40.3775,
+          "lon": 71.7790,
+          "status": "start",
+          "location": "Farg'ona, O'zbekiston",
+          "ip": "213.230.102.245"
+        },
+        {
+          "time": "08:05",
+          "lat": 40.3790,
+          "lon": 71.7820,
+          "status": "move",
+          "location": "Qo‘qon, O'zbekiston",
+          "ip": "213.230.102.246"
+        },
+        {
+          "time": "08:10",
+          "lat": 40.3810,
+          "lon": 71.7850,
+          "status": "stop",
+          "location": "Qo‘qon, O'zbekiston",
+          "ip": "213.230.102.247"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Aziza",
+      "routes": [
+        {
+          "time": "08:20",
+          "lat": 40.3900,
+          "lon": 71.7900,
+          "status": "start",
+          "location": "Marg‘ilon, O'zbekiston",
+          "ip": "213.230.102.248"
+        },
+        {
+          "time": "08:30",
+          "lat": 40.3925,
+          "lon": 71.7935,
+          "status": "move",
+          "location": "Marg‘ilon, O'zbekiston",
+          "ip": "213.230.102.249"
+        },
+        {
+          "time": "08:40",
+          "lat": 40.3950,
+          "lon": 71.7970,
+          "status": "move",
+          "location": "Farg‘ona, O'zbekiston",
+          "ip": "213.230.102.250"
+        },
+        {
+          "time": "08:45",
+          "lat": 40.3960,
+          "lon": 71.7990,
+          "status": "stop",
+          "location": "Farg‘ona, O'zbekiston",
+          "ip": "213.230.102.251"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bekzod",
+      "routes": [
+        {
+          "time": "09:00",
+          "lat": 40.3800,
+          "lon": 71.7800,
+          "status": "start",
+          "location": "Andijon, O'zbekiston",
+          "ip": "213.230.102.252"
+        },
+        {
+          "time": "09:10",
+          "lat": 40.3825,
+          "lon": 71.7830,
+          "status": "move",
+          "location": "Andijon, O'zbekiston",
+          "ip": "213.230.102.253"
+        },
+        {
+          "time": "09:20",
+          "lat": 40.3850,
+          "lon": 71.7860,
+          "status": "move",
+          "location": "Andijon, O'zbekiston",
+          "ip": "213.230.102.254"
+        },
+        {
+          "time": "09:25",
+          "lat": 40.3880,
+          "lon": 71.7880,
+          "status": "stop",
+          "location": "Asaka, O'zbekiston",
+          "ip": "213.230.102.255"
+        }
+      ]
+    }
+  ]
+}
