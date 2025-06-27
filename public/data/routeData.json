@@ -4,33 +4,168 @@
       "id": 1,
       "name": "Ali",
       "routes": [
-        { "time": "08:00", "lat": 4.1000, "lon": 71.7790, "status": "start", "location": "Farg'ona", "ip": "1.1.1.1" },
-        { "time": "08:05", "lat": 11.2000, "lon": 71.7820, "status": "move", "location": "Yo‘lda", "ip": "1.1.1.2" },
-        { "time": "08:20", "lat": 25.2500, "lon": 71.7835, "status": "stop", "location": "Quva", "ip": "1.1.1.5" },
-        { "time": "08:35", "lat": 29.2750, "lon": 71.7845, "status": "stop", "location": "Dang‘ara", "ip": "1.1.1.6" },
-        { "time": "08:50", "lat": 40.3000, "lon": 71.7850, "status": "stop", "location": "Qo‘qon", "ip": "1.1.1.3" }
+        {
+          "time": "08:00",
+          "time2": "07:00",
+          "lat": 40.3833,
+          "lon": 71.7833,
+          "status": "start",
+          "location": "Farg'ona",
+          "ip": "1.1.1.1",
+          "userName": "Ali"
+        },
+        {
+          "time": "08:05",
+          "time2": "07:00",
+          "lat": 40.4000,
+          "lon": 71.8200,
+          "status": "move",
+          "location": "Yo‘lda",
+          "ip": "1.1.1.2",
+          "userName": "Ali"
+        },
+        {
+          "time": "08:20",
+          "time2": "07:00",
+          "lat": 40.5200,
+          "lon": 71.8500,
+          "status": "stop",
+          "location": "Quva",
+          "ip": "1.1.1.5",
+          "userName": "Ali"
+        },
+        {
+          "time": "08:35",
+          "time2": "07:00",
+          "lat": 40.6000,
+          "lon": 71.8800,
+          "status": "stop",
+          "location": "Dang‘ara",
+          "ip": "1.1.1.6",
+          "userName": "Ali"
+        },
+        {
+          "time": "08:50",
+          "time2": "07:00",
+          "lat": 40.7500,
+          "lon": 71.9200,
+          "status": "stop",
+          "location": "Qo‘qon",
+          "ip": "1.1.1.3",
+          "userName": "Ali"
+        }
       ]
     },
     {
       "id": 2,
       "name": "Aziza",
       "routes": [
-        { "time": "08:10", "lat": 9.4000, "lon": 71.7900, "status": "start", "location": "Qo‘qon", "ip": "2.2.2.2" },
-        { "time": "09:05", "lat": 25.4500, "lon": 71.7915, "status": "stop", "location": "Bag‘dod", "ip": "2.2.2.5" },
-        { "time": "09:30", "lat": 27.5000, "lon": 71.7935, "status": "move", "location": "Yo‘lda", "ip": "2.2.2.3" },
-        { "time": "09:40", "lat": 36.5500, "lon": 71.7975, "status": "stop", "location": "Qo‘shtepa", "ip": "2.2.2.6" },
-        { "time": "09:45", "lat": 45.6000, "lon": 71.7990, "status": "stop", "location": "Marg‘ilon", "ip": "2.2.2.4" }
+        {
+          "time": "08:10",
+          "time2": "08:00",
+          "lat": 40.7600,
+          "lon": 71.9300,
+          "status": "start",
+          "location": "Qo‘qon",
+          "ip": "2.2.2.2",
+          "userName": "Aziza"
+        },
+        {
+          "time": "09:05",
+          "time2": "08:00",
+          "lat": 40.8500,
+          "lon": 72.0000,
+          "status": "stop",
+          "location": "Bag‘dod",
+          "ip": "2.2.2.5",
+          "userName": "Aziza"
+        },
+        {
+          "time": "09:30",
+          "time2": "08:00",
+          "lat": 41.0000,
+          "lon": 72.0500,
+          "status": "move",
+          "location": "Yo‘lda",
+          "ip": "2.2.2.3",
+          "userName": "Aziza"
+        },
+        {
+          "time": "09:40",
+          "time2": "08:00",
+          "lat": 41.1500,
+          "lon": 72.1200,
+          "status": "stop",
+          "location": "Qo‘shtepa",
+          "ip": "2.2.2.6",
+          "userName": "Aziza"
+        },
+        {
+          "time": "09:45",
+          "time2": "08:00",
+          "lat": 41.2500,
+          "lon": 72.1000,
+          "status": "stop",
+          "location": "Marg‘ilon",
+          "ip": "2.2.2.4",
+          "userName": "Aziza"
+        }
       ]
     },
     {
       "id": 3,
       "name": "Bekzod",
       "routes": [
-        { "time": "08:00", "lat": 1.7000, "lon": 71.7800, "status": "start", "location": "Farg‘ona", "ip": "3.3.3.3" },
-        { "time": "08:20", "lat": 10.7250, "lon": 71.7815, "status": "stop", "location": "Toshloq", "ip": "3.3.3.6" },
-        { "time": "09:00", "lat": 20.7500, "lon": 71.7825, "status": "stop", "location": "Yozyovon", "ip": "3.3.3.7" },
-        { "time": "09:10", "lat": 45.8000, "lon": 71.7830, "status": "move", "location": "Yo‘lda", "ip": "3.3.3.4" },
-        { "time": "09:25", "lat": 55.9000, "lon": 71.7880, "status": "stop", "location": "Andijon", "ip": "3.3.3.5" }
+        {
+          "time": "09:00",
+          "time2": "08:00",
+          "lat": 40.3700,
+          "lon": 71.7600,
+          "status": "start",
+          "location": "Farg‘ona",
+          "ip": "3.3.3.3",
+          "userName": "Bekzod"
+        },
+        {
+          "time": "08:20",
+          "time2": "08:00",
+          "lat": 40.4800,
+          "lon": 71.8000,
+          "status": "stop",
+          "location": "Toshloq",
+          "ip": "3.3.3.6",
+          "userName": "Bekzod"
+        },
+        {
+          "time": "09:00",
+          "time2": "08:00",
+          "lat": 40.6000,
+          "lon": 71.8500,
+          "status": "stop",
+          "location": "Yozyovon",
+          "ip": "3.3.3.7",
+          "userName": "Bekzod"
+        },
+        {
+          "time": "09:10",
+          "time2": "08:00",
+          "lat": 40.7500,
+          "lon": 71.8800,
+          "status": "move",
+          "location": "Yo‘lda",
+          "ip": "3.3.3.4",
+          "userName": "Bekzod"
+        },
+        {
+          "time": "09:25",
+          "time2": "08:00",
+          "lat": 40.9000,
+          "lon": 71.9500,
+          "status": "stop",
+          "location": "Andijon",
+          "ip": "3.3.3.5",
+          "userName": "Bekzod"
+        }
       ]
     }
   ]
