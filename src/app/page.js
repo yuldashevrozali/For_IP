@@ -30,7 +30,7 @@ export default function RouteTracker() {
             x: r.lat,
             y: r.lon,
             userId: user.id,
-            userName: user.name, // 🟢 user ismi har bir nuqtaga biriktirildi
+            userName: user.name,
           })),
         }));
 
@@ -77,7 +77,6 @@ export default function RouteTracker() {
                         <p>
                           👤 <strong>{d.userName}</strong>
                         </p>{" "}
-                        {/* 🔥 Bu joyda to‘g‘ri ism chiqadi */}
                         <p>🕒 {d.time}</p>
                         <p>📍 {d.location}</p>
                         <p>🌐 {d.ip}</p>
@@ -93,7 +92,7 @@ export default function RouteTracker() {
 
               <Legend />
 
-               {userRoutes.map((user, i) => (
+              {userRoutes.map((user, i) => (
                 <Scatter
                   key={user.id}
                   name={user.name}
@@ -104,7 +103,6 @@ export default function RouteTracker() {
                   dataKey={Math.random()}
                 />
               ))}
-
             </ScatterChart>
           </ResponsiveContainer>
         )}
